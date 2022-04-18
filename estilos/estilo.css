@@ -52,6 +52,11 @@ header {
     margin-bottom: 50px;
 }
 
+h1 {
+    animation: bounceOut;
+  animation-duration: 2s;
+}
+
 nav {                            /* empieza el nav */
     text-align: center;
     text-decoration: none;
