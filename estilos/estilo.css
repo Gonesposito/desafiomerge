@@ -28,7 +28,6 @@ body {
     display: inline-block;
     position: relative;
     max-width: 50;
-    text-decoration: none;
     top: 15px;
     padding: 8px;
     font-family: 'Aldrich', sans-serif;
@@ -46,23 +45,25 @@ header {
 }
 
 .ge {
+    color: white;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-bottom: 50px;
 }
 
-h1 {
+.animacion {
     animation: bounceOut;
   animation-duration: 2s;
 }
 
-nav {                            /* empieza el nav */
+.menu {          
+    display: flex;
+    justify-content: center;               
     text-align: center;
-    text-decoration: none;
-    grid-area: nav;
 }
-nav li {
+.menu li {
     color: white;
     display: inline-block;
     position: relative;
@@ -70,7 +71,7 @@ nav li {
     font-family: 'Julius Sans One', sans-serif;
     }                    
 
-nav li:hover{
+.menu li:hover{
     background-color: #240b36;
     border-radius: 20ch;
     padding: 5px 10px;
@@ -78,10 +79,9 @@ nav li:hover{
     transition: 700ms;
 }                             
 
-nav a{                         
+.menu a{                         
     color: white;
-    text-decoration: none;
-}                               
+}                    
 
 
 .main-cuadrados {                   /* index */        /*empieza el main*/
@@ -112,6 +112,8 @@ nav a{
 }
 
 .main-cuadrados1 h3 {
+    color: white;
+    text-decoration: none;
     display: block;
     font-size: 2rem;
     border-radius: 50%;
@@ -141,6 +143,8 @@ nav a{
 }
 
 .main-cuadrados2 h3 {
+    color: white;
+    text-decoration: none;
     display: block;
     font-size: 2rem;
     border-radius: 50%;
